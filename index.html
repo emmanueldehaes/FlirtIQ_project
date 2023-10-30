@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>FlirtIQ | Séduis intelligemment</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-widht, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+	<script src="mon.js"></script>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/swiper-bundle.min.css">
+</head>
+<body>
+	<div class="bannerindex">
+		<div class="navbar">
+			<a href="index.html"><img src="images/logo.png" alt="logo" class="logo" href="index.html"></a>
+			<nav class="barredenav">
+  <a href="index.html" class="nav-item"  data-target="Home">Accueil</a>
+	<a href="flirtiq.html" class="nav-item"  data-target="Application">FlirtIQ</a>
+  <a href="apropos.html" class="nav-item"  data-target="About">À propos</a>
+  <a href="contact.html" class="nav-item"  data-target="Contact">Contact</a>
+  <span class="nav-indicator"></span>
+</nav>
+		</div>
+		<script>
+			$(document).ready(() => {
+    let typed = new Typed(".texte", {
+        strings: ["à être romantique.", "à faire rire.","à être original."],
+        typeSpeed: 90,
+        backSpeed: 70,
+        loop: true
+    });
+});
+		</script>
+		<div class="content">
+		<h1 class="presentation">FlirtIQ t'aide <span class="texte"></span></h1>
+			<p class="texteaccueil">FlirtIQ est votre allié lorsque vous vous retrouvez devant un message qui vous laisse perplexe. Que vous soyez à court d'idées <br> pour répondre avec finesse, charme ou humour, notre application est là pour vous aider à briller de manière irrésistible.</p>
+			<div>
+			<a href="flirtiq.html"><button type="button"><span></span>Essayer</button></a>
+			</div>
+		</div>
+		 <div class="cursor"></div>
+		<script>
+		const cursor = document.querySelector('.cursor');
+
+document.addEventListener('mousemove', e => {
+    cursor.setAttribute('style', 'top:'+(e.pageY - 20)+"px; left:"+(e.pageX - 20)+"px;")
+})
+
+document.addEventListener('click', ()=>{
+    cursor.classList.add('expand');
+
+    setTimeout(()=>{
+        cursor.classList.remove("expand");
+    }, 500);
+})
+		</script>
+		
+		 <script src="mon.js"></script>
+	</div>
+</body>
+	<footer class="footer">
+  	 <div class="containerfooter">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>Mentions légales</h4>
+  	 			<ul>
+  	 				<li><a href="confidentialite.html">Confidentialité</a></li>
+  	 				<li><a href="conditionsdutilisation.html">Conditions d'utilisation</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Informations</h4>
+  	 			<ul>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="apropos.html">À propos de nous</a></li>
+ 
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Réseaux sociaux</h4>
+  	 			<div class="social-links">
+  	 				<a href="#"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="#"><i class="fab fa-twitter"></i></a>
+  	 				<a href="#"><i class="fab fa-instagram"></i></a>
+  	 				<a href="#"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
+  	 		</div>
+			<div class="footer-col">
+  	 			<h4>Téléchargez l’app !</h4>
+  	 			<ul>
+  	 				<a href="#"><img class="mobile" alt="télécharger sur App Store" src="images/telecharger-app-store.png"></a>
+					<a href="#"><img class="mobile" href="#" alt="télécharger sur Google Play" src="images/google_play2.png"></a>
+  	 			</ul>
+  	 		</div>
+  	 	</div>
+		 <div class="copyright">© 2023 FlirtIQ Group. Tous droits réservés.</div>
+  	 </div>
+  </footer>
+</html>

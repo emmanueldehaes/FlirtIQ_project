@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>FlirtIQ | Séduis intelligemment</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-widht, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+	<script src="mon.js"></script>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/swiper-bundle.min.css">
+	
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	 <title>Formulaire de contact</title>
+	<script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+	
+	
+</head>
+<body>
+	
+	<div class="cursor"></div>
+		<script>
+		const cursor = document.querySelector('.cursor');
+
+document.addEventListener('mousemove', e => {
+    cursor.setAttribute('style', 'top:'+(e.pageY - 20)+"px; left:"+(e.pageX - 20)+"px;")
+})
+
+document.addEventListener('click', ()=>{
+    cursor.classList.add('expand');
+
+    setTimeout(()=>{
+        cursor.classList.remove("expand");
+    }, 500);
+})
+		</script>
+		
+		 <script src="mon.js"></script>
+	
+	<div class="bannerapropos">
+		<div class="navbar">
+			<a href="index.html"><img src="images/logo.png" alt="logo" class="logo" href="index.html"></a>
+			<nav>
+  <a href="index.html" class="nav-item"  data-target="Home">Accueil</a>
+	<a href="flirtiq.html" class="nav-item"  data-target="Application">FlirtIQ</a>
+  <a href="apropos.html" class="nav-item"  data-target="About">À propos</a>
+  <a href="contact.html" class="nav-item"  data-target="Contact">Contact</a>
+  <span class="nav-indicator"></span>		
+</nav>
+	</div>
+	<div><h1 class="contactitre">Contact</h1>
+	</div>
+	
+	<div class="container">
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Prenons contact</h3>
+          <p class="text">
+            Que vous ayez des questions, des idées à partager ou des besoins spécifiques, nous sommes là pour vous écouter et vous aider !
+          </p>
+
+          <div class="info">
+            <div class="information">
+              <img src="images/email.png" class="icon" alt="" />
+              <p>contact@flirtiq.com</p>
+            </div>
+          </div>
+
+          <div class="social-media">
+            <p>Connectez-vous avec nous :</p>
+            <div class="social-icons">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form action="index.html" autocomplete="off">
+            <h3 class="title">Contactez nous</h3>
+            <div class="input-container">
+              <input type="text" name="name" class="input" />
+              <label for="">Nom</label>
+              <span>Nom</span>
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" class="input" />
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <div class="input-container">
+              <input type="tel" name="phone" class="input" />
+              <label for="">Numéro</label>
+              <span>Numéro</span>
+            </div>
+            <div class="input-container textarea">
+              <textarea name="message" class="input"></textarea>
+              <label for="">Message</label>
+              <span>Message</span>
+            </div>
+           <input type="submit" value="Envoyer" class="btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+	  <script src="mon.js"></script><script src="mon.js"></script>
+</div>
+	
+	
+	
+	<script>
+	const inputs = document.querySelectorAll(".input");
+
+function focusFunc() {
+  let parent = this.parentNode;
+  parent.classList.add("focus");
+}
+
+function blurFunc() {
+  let parent = this.parentNode;
+  if (this.value == "") {
+    parent.classList.remove("focus");
+  }
+}
+
+inputs.forEach((input) => {
+  input.addEventListener("focus", focusFunc);
+  input.addEventListener("blur", blurFunc);
+});
+	</script>
+	
+	
+	
+	
+</body>
+<footer class="footer">
+  	 <div class="containerfooter">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>Mentions légales</h4>
+  	 			<ul>
+  	 				<li><a href="confidentialite.html">Confidentialité</a></li>
+  	 				<li><a href="conditionsdutilisation.html">Conditions d'utilisation</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Information</h4>
+  	 			<ul>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="apropos.html">À propos de nous</a></li>
+ 
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Réseaux sociaux</h4>
+  	 			<div class="social-links">
+  	 				<a href="#"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="#"><i class="fab fa-twitter"></i></a>
+  	 				<a href="#"><i class="fab fa-instagram"></i></a>
+  	 				<a href="#"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
+  	 		</div>
+			<div class="footer-col">
+  	 			<h4>Téléchargez l’app !</h4>
+  	 			<ul>
+  	 				<a href="#"><img class="mobile" alt="télécharger sur App Store" src="images/telecharger-app-store.png"></a>
+					<a href="#"><img class="mobile" href="#" alt="télécharger sur Google Play" src="images/google_play2.png"></a>
+  	 			</ul>
+  	 		</div>
+  	 	</div>
+		 <div class="copyright">© 2023 FlirtIQ Group. Tous droits réservés.</div>
+  	 </div>
+  </footer>
+</html>
